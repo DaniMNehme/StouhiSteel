@@ -989,7 +989,14 @@ a:hover {
   backface-visibility: hidden;
 }
 
-.card-box-a .img-a,
+.card-box-a .img-a{
+   
+  width: 400px;  /* Adjust the value as needed */
+  height: 350px; /* Adjust the value as needed */
+   object-fit: fill;  
+  /* This makes sure the image covers the whole space without distortion */
+
+}
 .card-box-a .img-b,
 .card-box-b .img-a,
 .card-box-b .img-b {
@@ -1742,13 +1749,20 @@ footer .credits {
     margin-bottom: 2.5rem;
   }
 
-  .card-box-a:hover .img-a,
+  .card-box-a:hover .img-a{
+   
+    width: 400px;  /* Adjust the value as needed */
+  height: 350px;
+    
+    
+  }
   .card-box-a:hover .img-b,
   .card-box-b:hover .img-a,
   .card-box-b:hover .img-b {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
+
 
   .card-box-a .price-a,
   .card-box-b .price-a {
