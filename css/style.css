@@ -1323,11 +1323,6 @@ a:hover {
 //--//-->   AGENTS - CARD-D
 ======================================*/
 
-.card-box-d .card-overlay-hover {
-  transition: all .2s ease-in-out;
-  padding: 15px 40px 15px 35px;
-}
-
 .card-box-d .title-d {
   transition: .3s ease-in-out;
   font-size: 2rem;
@@ -1804,9 +1799,6 @@ footer .credits {
     font-size: 1.8rem;
   }
 
-  .card-box-d .card-overlay-hover {
-    padding: 5px 15px 5px 10px;
-  }
 
   .card-box-d .title-d {
     font-size: 1.1rem;
@@ -1915,9 +1907,6 @@ footer .credits {
     font-size: 2.5rem;
   }
 
-  .card-box-d .card-overlay-hover {
-    padding: 5px 40px 5px 35px;
-  }
 
   .card-box-d .title-d {
     font-size: 1.5rem;
@@ -2437,3 +2426,18 @@ footer .line {
     color: #ff5252;
 }
 
+
+.card-img-d img {
+  max-width: 80%; /* Adjust this value to your preference */
+  height: auto; /* This will maintain the aspect ratio */
+}
+
+.card-box-d .card-overlay-hover {
+  /* Ensure your overlay fits the image size */
+  width: 80%; /* It should take full width of the parent .card-box-d */
+  height: 100%; /* It should take full height of the parent .card-box-d */
+  position: absolute; /* This will make it position relative to .card-box-d */
+  top: 0; /* Align it to the top of .card-box-d */
+  left: 0; /* Align it to the left of .card-box-d */
+  padding: 5px 40px 5px 35px;
+}
