@@ -1,7 +1,9 @@
 // Fetch the products from the server
 fetch('https://6486fd6fb28f780008e3f1e2--aesthetic-eclair-56d00c.netlify.app/.netlify/functions/api/products')
     .then(response => response.json())
+    
     .then(products => {
+
         const productContainer = document.querySelector('#property-grid-item');
         // Loop through each product
         products.forEach(product => {
@@ -15,7 +17,7 @@ fetch('https://6486fd6fb28f780008e3f1e2--aesthetic-eclair-56d00c.netlify.app/.ne
             productElem.innerHTML = `
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/property-1.jpg" alt="" class="img-a img-fluid">
+              <img src="img/pegatec.png" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
