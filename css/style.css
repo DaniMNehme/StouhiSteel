@@ -1368,7 +1368,8 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
-  background-color: #7ba08f;
+  background-color: #DBDCDE;
+  /* #7ba08f; */
   opacity: .9;
 }
 
