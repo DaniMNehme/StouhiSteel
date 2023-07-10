@@ -90,6 +90,18 @@ a:hover {
   color: #000000;
 }
 
+.btn-color-b{
+  background-color: #7ba08f;
+  color: #ffffff;
+
+}
+
+.btn-color-b:hover{
+  background-color: #ffffff;
+  color: #7ba08f;
+  border: 1px solid #7ba08f;
+}
+
 .color-b {
   color: #7ba08f;
 }
